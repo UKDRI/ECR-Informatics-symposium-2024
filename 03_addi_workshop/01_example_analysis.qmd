@@ -1,0 +1,161 @@
+---
+title: "Basic Seurat workflow"
+author: "Gabriel Mateus Bernardo Harrington"
+format: html
+---
+
+For the purposes or giving folk something at least vaugely relevant to play with I'll throw something quick together here.
+
+# Load packages
+
+Note that I'm using [`renv`](https://rstudio.github.io/renv/articles/renv.html) to manage packages.
+Once you open the .Rproj you should just need to run `renv::restore()` to get the packages installed.
+
+```{r}
+#| eval: false
+# Run this once to install packages
+renv::restore()
+```
+
+```{r}
+library(dplyr)
+library(Seurat)
+# Can't use on ADDI as it's a GitHub package - no access to install
+#library(presto)
+library(patchwork)
+library(readr)
+library(here)
+```
+
+# Load data
+
+```{r}
+sce <- readr::read_rds(here::here("03_addi_workshop/ad_bbb_seurat_data.rds"))
+```
+
+# Generic Seurat workflow
+
+I'm gonna be a lazy hack and just copy stuff from the [`Seurat` vignette](https://satijalab.org/seurat/articles/sce3k_tutorial) :P
+
+## Check some QC stuff
+
+```{r}
+# Mitochondrial genes are no fun, see how many we got
+sce[["percent.mt"]] <- PercentageFeatureSet(sce, pattern = "^MT-")
+```
+
+```{r}
+VlnPlot(sce, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
+```
+
+Note that I used the lovely [`scFlow`](https://nf-co.re/scflow/dev) to process this data and it kindly removed all the mito reads for us.
+
+```{r}
+# FeatureScatter is typically used to visualize feature-feature relationships, but can be used
+# for anything calculated by the object, i.e. columns in object metadata, PC scores etc.
+
+plot1 <- FeatureScatter(sce, feature1 = "nCount_RNA", feature2 = "percent.mt")
+plot2 <- FeatureScatter(sce, feature1 = "nCount_RNA", feature2 = "nFeature_RNA")
+plot1 + plot2
+```
+
+## Normalise/Variable features
+
+```{r}
+sce <- NormalizeData(sce)
+```
+
+```{r}
+sce <- FindVariableFeatures(sce, selection.method = "vst", nfeatures = 2000)
+
+# Identify the 10 most highly variable genes
+top10 <- head(VariableFeatures(sce), 10)
+
+# plot variable features with and without labels
+plot1 <- VariableFeaturePlot(sce)
+plot2 <- LabelPoints(plot = plot1, points = top10, repel = TRUE)
+plot1 + plot2
+```
+
+## Scale data
+
+```{r}
+all.genes <- rownames(sce)
+sce <- ScaleData(sce, features = all.genes)
+```
+
+## PCA
+
+```{r}
+sce <- RunPCA(sce, features = VariableFeatures(object = sce))
+```
+
+```{r}
+# Examine and visualize PCA results a few different ways
+print(sce[["pca"]], dims = 1:5, nfeatures = 5)
+```
+
+```{r}
+VizDimLoadings(sce, dims = 1:2, reduction = "pca")
+```
+
+```{r}
+ElbowPlot(sce)
+```
+
+```{r}
+DimPlot(sce, reduction = "pca", label = TRUE)
+```
+
+## Cluster cells
+
+```{r}
+sce <- FindNeighbors(sce, dims = 1:15)
+sce <- FindClusters(sce, resolution = 0.5)
+```
+
+## UMAP
+
+Let's check the UMAP I got from the full dataset first for comparison
+
+```{r}
+DimPlot(sce, reduction = "umap", label = TRUE)
+```
+
+This dataset has vascular and parenchymal fractions that were sequences separately for each donor as well
+
+```{r}
+DimPlot(sce, reduction = "pca", label = TRUE, group.by = "prep")
+DimPlot(sce, reduction = "umap", label = TRUE, group.by = "prep")
+```
+
+```{r}
+sce <- RunUMAP(sce, dims = 1:15)
+```
+
+```{r}
+DimPlot(sce, reduction = "umap", label = TRUE)
+```
+
+Well that's rather different.
+
+## Cluster markers
+
+```{r}
+# find markers for every cluster compared to all remaining cells, report only the positive
+# ones
+sce.markers <- FindAllMarkers(sce, only.pos = TRUE)
+sce.markers %>%
+    group_by(cluster) %>%
+    dplyr::filter(avg_log2FC > 1)
+```
+
+```{r}
+sce.markers %>%
+    group_by(cluster) %>%
+    dplyr::filter(avg_log2FC > 1) %>%
+    slice_head(n = 10) %>%
+    ungroup() -> top10
+DoHeatmap(sce, features = top10$gene) + NoLegend()
+```
+
