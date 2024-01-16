@@ -1,0 +1,16 @@
+---
+title: "All the links!"
+---
+
+Welcome to link central!
+
+# Survey
+
+We really want to know more about the informatics community to help us understand what will be most useful for us to do as a committee.
+
+A huge thanks to those who've already filled it in, but for those who haven't please find it here: [https://portal.ukdri.ac.uk/news/are-you-using-informatics-in-your-uk-dri-research](https://portal.ukdri.ac.uk/news/are-you-using-informatics-in-your-uk-dri-research)
+
+# DRI GitHub
+
+The DRI has a [GitHub organisation](https://github.com/UKDRI), and we'd love to see folk using for sharing their code.
+This meeting has also has a [repo](https://github.com/UKDRI/ECR-Informatics-symposium-2024) which includes this site!
