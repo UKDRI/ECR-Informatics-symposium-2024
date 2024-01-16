@@ -18,7 +18,7 @@
     "href": "index.html#date",
     "title": "Welcome!",
     "section": "Date",
-    "text": "Date\n\n18 - 19 Jan 2024\n\nThis conference will bring together experts in bioinformatics, imaging, machine learning and statistics, to foster an inclusive interdisciplinary dialogue aimed at accelerating progress in your dementia research. A chance to network and collaborate with like-minded colleagues, forging new partnerships and uncovering opportunities for cross-pollination and career development. Share your research via a short talk or poster and engage in thought-provoking technical discussions.\nThe “Integrative Informatics for Targeting Dementia” session represents a chance for us to gather and learn about what others in the UK DRI informatics community are doing and how new collaborations may benefit your research in years to come."
+    "text": "Date\n\n18 - 19 Jan 2024"
   },
   {
     "objectID": "about.html",
@@ -33,5 +33,12 @@
     "title": "All the links!",
     "section": "",
     "text": "Welcome to link central!\nThe agenda for the symposium can be found here.\n\nSurvey\nWe really want to know more about the informatics community to help us understand what will be most useful for us to do as a committee.\nA huge thanks to those who’ve already filled it in, but for those who haven’t please find it here: https://portal.ukdri.ac.uk/news/are-you-using-informatics-in-your-uk-dri-research\n\n\nDRI GitHub\nThe DRI has a GitHub organisation, and we’d love to see folk using for sharing their code. This meeting has also has a repo which includes this site!\n\n\nSlides & Posters\nTalks that have been made available can be found on the repo here, and posters here."
+  },
+  {
+    "objectID": "index.html#agenda",
+    "href": "index.html#agenda",
+    "title": "Welcome!",
+    "section": "Agenda",
+    "text": "Agenda\nThe program can be found here.\nThis conference will bring together experts in bioinformatics, imaging, machine learning and statistics, to foster an inclusive interdisciplinary dialogue aimed at accelerating progress in your dementia research. A chance to network and collaborate with like-minded colleagues, forging new partnerships and uncovering opportunities for cross-pollination and career development. Share your research via a short talk or poster and engage in thought-provoking technical discussions.\nThe “Integrative Informatics for Targeting Dementia” session represents a chance for us to gather and learn about what others in the UK DRI informatics community are doing and how new collaborations may benefit your research in years to come."
   }
 ]
