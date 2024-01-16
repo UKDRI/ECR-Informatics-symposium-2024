@@ -9,7 +9,12 @@ We welcome all early career researchers across the UK DRI tackling dementia with
 - International Students House, 229 Great Portland St, London W1B 1PF
 
 ## Date
+
 - 18 - 19 Jan 2024
+
+## Agenda
+
+The program can be found [here](https://ukdri.ac.uk/uploads/Informatics-ECR-event-London-schedule_program.pdf).
 
 This conference will bring together experts in bioinformatics, imaging, machine learning and statistics, to foster an inclusive interdisciplinary dialogue aimed at accelerating progress in your dementia research. A chance to network and collaborate with like-minded colleagues, forging new partnerships and uncovering opportunities for cross-pollination and career development. Share your research via a short talk or poster and engage in thought-provoking technical discussions.
 
