@@ -32,7 +32,7 @@
     "href": "links.html",
     "title": "All the links!",
     "section": "",
-    "text": "Welcome to link central!\nThe agenda for the symposium can be found here.\n\nSurvey\nWe really want to know more about the informatics community to help us understand what will be most useful for us to do as a committee.\nA huge thanks to those who’ve already filled it in, but for those who haven’t please find it here: https://portal.ukdri.ac.uk/news/are-you-using-informatics-in-your-uk-dri-research\n\n\nDRI GitHub\nThe DRI has a GitHub organisation, and we’d love to see folk using for sharing their code. This meeting has also has a repo which includes this site!\n\n\nSlides & Posters\nTalks that have been made available can be found on the repo here, and posters here."
+    "text": "Welcome to link central!\nThe agenda for the symposium can be found here."
   },
   {
     "objectID": "index.html#agenda",
@@ -74,7 +74,7 @@
     "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#proposed-workflow",
     "title": "Exploring Reproducibility",
     "section": "Proposed workflow",
-    "text": "Proposed workflow\n\nMake a repo on DRI GitHub Org (perhaps using the template\nWrite and publish a registered report outlining the project\nGather/analyse data\n\nMake ADDI workspace?\nUse existing pipelines if applicable (Nextflow)\nContainerise software environment (probably at end of project)"
+    "text": "Proposed workflow\n\nMake a repo on DRI GitHub Org (perhaps using the template!)\nWrite and publish a registered report outlining the project\nGather/analyse data\n\nMake ADDI workspace?\nUse existing pipelines if applicable (Nextflow)\nContainerise software environment (probably at end of project)"
   },
   {
     "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#proposed-workflow-continued",
@@ -123,7 +123,7 @@
     "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#references",
     "title": "Exploring Reproducibility",
     "section": "References",
-    "text": "References\n\n\n\nUKDRI theme for Quarto Presentations. Made with UKDRI Quarto theme template."
+    "text": "References\n\n\n\nCode for slides can be found here - Made with UKDRI Quarto theme template."
   },
   {
     "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#quick-questions",
@@ -131,5 +131,12 @@
     "title": "Exploring Reproducibility",
     "section": "Quick Questions!",
     "text": "Quick Questions!\n\nFollow the link: https://www.menti.com/alqq45q4oprd\n\n\n\nhttps://www.mentimeter.com/app/presentation/alrcqg7tuw6z221zusbii9tmi788qrkc/iiuvim6xku9v/edit"
+  },
+  {
+    "objectID": "links.html#github-template",
+    "href": "links.html#github-template",
+    "title": "All the links!",
+    "section": "GitHub template",
+    "text": "GitHub template\nIt’s a work in progress, but we’ve a template repo for projects on GitHub here, any feedback or contributions would be very welcome!\nThere’s also a little DRI theme I made for Quarto presentations here # Slides & Posters\nTalks that have been made available can be found on the repo here, and posters here."
   }
 ]

@@ -8,7 +8,7 @@ date-format: iso
 institute: 'Research Associate | Webber Group'
 format: ukdri-revealjs
 footer: |
-  [UKDRI](https://ukdri.ac.uk/) theme for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html).
+  Code for slides can be found [here](https://github.com/UKDRI/ECR-Informatics-symposium-2024/tree/main/01_talks/2024-01-19_exploring_reproducibility) -
   Made with [UKDRI Quarto theme template](https://github.com/H-Mateus/quarto-ukdri-theme).
 embed-resources: true
 ---
@@ -57,8 +57,8 @@ embed-resources: true
 
 ## Proposed workflow
 
-(@)  Make a repo on DRI GitHub Org (perhaps using [the template](https://github.com/H-Mateus/dri-reproducibility-template!)
-(@)  Write and publish a registered report outlining the project
+(@)  Make a repo on DRI GitHub Org (perhaps using [the template](https://github.com/H-Mateus/dri-reproducibility-template)!)
+(@)  Write and publish a [registered report](https://www.cos.io/initiatives/registered-reports) outlining the project
 (@)  Gather/analyse data
     i)  Make ADDI workspace?
     ii) Use existing pipelines if applicable (Nextflow)
@@ -94,7 +94,7 @@ dri_hexcolours <- c("dark_blue" = "#00326e", "light_grey" = "#c4d1d9",
 -   Please get in touch about anything reproducibility related (or just just say hi :) - [bernardo-harringtong\@cardiff.ac.uk](mailto:bernardo-harringtong@cardiff.ac.uk)
 -   Questions?
 
-[![](images/hope.jpg){width="380"}](https://unsplash.com/photos/man-sitting-on-mountain-cliff-facing-white-clouds-rising-one-hand-at-golden-hour-bH7kZ0yazB0)
+[![](images/qr-code-slides.png){width="380"}](https://ukdri.github.io/ECR-Informatics-symposium-2024/01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#/title-slide)
 :::
 
 <!--Adjust sizing in the CSS file-->

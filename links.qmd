@@ -17,6 +17,11 @@ A huge thanks to those who've already filled it in, but for those who haven't pl
 The DRI has a [GitHub organisation](https://github.com/UKDRI), and we'd love to see folk using for sharing their code.
 This meeting has also has a [repo](https://github.com/UKDRI/ECR-Informatics-symposium-2024) which includes this site!
 
+## GitHub template
+
+It's a work in progress, but we've a template repo for projects on GitHub [here](https://github.com/H-Mateus/dri-reproducibility-template), any feedback or contributions would be very welcome!
+
+There's also a little DRI theme I made for [Quarto](https://quarto.org/) presentations [here](https://github.com/H-Mateus/quarto-ukdri-theme)
 # Slides & Posters
 
 Talks that have been made available can be found on the repo [here](https://github.com/UKDRI/ECR-Informatics-symposium-2024/tree/main/01_talks), and posters [here](https://github.com/UKDRI/ECR-Informatics-symposium-2024/tree/main/02_posters).
