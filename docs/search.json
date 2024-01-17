@@ -40,5 +40,96 @@
     "title": "Welcome!",
     "section": "Agenda",
     "text": "Agenda\nThe program can be found here.\nThis conference will bring together experts in bioinformatics, imaging, machine learning and statistics, to foster an inclusive interdisciplinary dialogue aimed at accelerating progress in your dementia research. A chance to network and collaborate with like-minded colleagues, forging new partnerships and uncovering opportunities for cross-pollination and career development. Share your research via a short talk or poster and engage in thought-provoking technical discussions.\nThe “Integrative Informatics for Targeting Dementia” session represents a chance for us to gather and learn about what others in the UK DRI informatics community are doing and how new collaborations may benefit your research in years to come."
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#questions",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#questions",
+    "title": "Exploring Reproducibility",
+    "section": "Questions",
+    "text": "Questions\nMenti meter link here\nhttps://www.mentimeter.com/app/presentation/alrcqg7tuw6z221zusbii9tmi788qrkc/71g4gjj8tber/edit"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#discussion-groups",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#discussion-groups",
+    "title": "Exploring Reproducibility",
+    "section": "Discussion groups",
+    "text": "Discussion groups\n\n\n\n\nEach table has a topic to discuss for 10 minutes\nPlease add your thoughts on the topic to the shared document: https://hackmd.io/@Coconut1019/BJJYscMY6/edit"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#code-review",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#code-review",
+    "title": "Exploring Reproducibility",
+    "section": "Code Review",
+    "text": "Code Review\n\n\n\n\nJoin the team!\nHow does the community want it to be used?\n\nQuick second pair of eyes on code snippet?\nMethodological advice (QC cutoff, etc)?\nFull review of project codebase?"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#code-review-continued",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#code-review-continued",
+    "title": "Exploring Reproducibility",
+    "section": "Code Review continued",
+    "text": "Code Review continued\n\n\n\n\nAcknowledgements for review?\n\nGitHub has metrics\nAuthorship? Establish group rules, or discuss ad-hoc?\nMinimal acknowledgement in GitHub Contributors file for reviewers?"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#proposed-workflow",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#proposed-workflow",
+    "title": "Exploring Reproducibility",
+    "section": "Proposed workflow",
+    "text": "Proposed workflow\n\nMake a repo on DRI GitHub Org (perhaps using the template\nWrite and publish a registered report outlining the project\nGather/analyse data\n\nMake ADDI workspace?\nUse existing pipelines if applicable (Nextflow)\nContainerise software environment (probably at end of project)"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#proposed-workflow-continued",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#proposed-workflow-continued",
+    "title": "Exploring Reproducibility",
+    "section": "Proposed workflow continued",
+    "text": "Proposed workflow continued\n\n\n\n\nPublish all the things!\n\nPre-print -&gt; diamond open access\nData on relevant public repositories + ADDI?\ngenerate DOI for code repo via Zenodo"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#example-slide",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#example-slide",
+    "title": "Exploring Reproducibility",
+    "section": "Example slide",
+    "text": "Example slide\nHere is some text. The font is Arial (hex: #00326e). Here is another sentence with bold and italic text. Here is an example reference: (Baker and Escott-Price 2020)\n\n\n\n\nHere is a bullet point\nThe font used is Arial and font size is 18px\nBullets are coloured hex: #0ac8ff"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#incremental-content",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#incremental-content",
+    "title": "Exploring Reproducibility",
+    "section": "Incremental content",
+    "text": "Incremental content\nHi!\n\nUse . . . to separate content as an incremental slide!"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#diagrams-with-mermaid",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#diagrams-with-mermaid",
+    "title": "Exploring Reproducibility",
+    "section": "Diagrams with Mermaid!",
+    "text": "Diagrams with Mermaid!\nRead about how to create a diagram in this post by Mine Çetinkaya-Rundel.\n\n\n\n\n\nflowchart LR\n  A[qmd] --&gt; B(Knitr)\n  A[qmd] --&gt; C(Jupyter)\n  B(Knitr) --&gt; D[md]\n  C(Jupyter) --&gt; D[md]\n  D[md] --&gt; E(pandoc)\n  E(pandoc) --&gt; F(HTML)\n  E(pandoc) --&gt; G(PDF)\n  E(pandoc) --&gt; H(Word)\n  E(pandoc) --&gt; I{and more}\n\n\nFigure 1: How Quarto orchestrates rendering of documents: start with a qmd file, use the Knitr or Jupyter engine to perform the computations and convert it to an md file, then use Pandoc to convert to various file formats including HTML, PDF, and Word."
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#exporting-into-pdf",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#exporting-into-pdf",
+    "title": "Exploring Reproducibility",
+    "section": "Exporting into PDF",
+    "text": "Exporting into PDF\nYou can use the function pagedown::chrome_print() to print the HTML version into a PDF!\npagedown::chrome_print(\"path-to-file.html\")"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#thanks-for-listening",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#thanks-for-listening",
+    "title": "Exploring Reproducibility",
+    "section": "Thanks for listening!",
+    "text": "Thanks for listening!\n\n\n\n\nHere’s to making science slightly less crap!\nPlease get in touch about anything reproducibility related (or just just say hi :) - bernardo-harringtong@cardiff.ac.uk\nQuestions?"
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#references",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#references",
+    "title": "Exploring Reproducibility",
+    "section": "References",
+    "text": "References\n\n\n\nUKDRI theme for Quarto Presentations. Made with UKDRI Quarto theme template."
+  },
+  {
+    "objectID": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#quick-questions",
+    "href": "01_talks/2024-01-19_exploring_reproducibility/2024-01-19_exploring_reproducibility.html#quick-questions",
+    "title": "Exploring Reproducibility",
+    "section": "Quick Questions!",
+    "text": "Quick Questions!\n\nFollow the link: https://www.menti.com/alqq45q4oprd\n\n\n\nhttps://www.mentimeter.com/app/presentation/alrcqg7tuw6z221zusbii9tmi788qrkc/iiuvim6xku9v/edit"
   }
 ]

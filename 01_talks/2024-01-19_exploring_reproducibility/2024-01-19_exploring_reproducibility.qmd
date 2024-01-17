@@ -1,0 +1,108 @@
+---
+title: "Exploring Reproducibility"
+subtitle: ''
+author: '<a href="https://gmbernardoharrington.netlify.app/" style="color: #fa2d6e">Gabriel Mateus Bernardo Harrington</a>'
+date: '2024-01-19'
+date-modified: '`r Sys.Date()`'
+date-format: iso
+institute: 'Research Associate | Webber Group'
+format: ukdri-revealjs
+footer: |
+  [UKDRI](https://ukdri.ac.uk/) theme for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html).
+  Made with [UKDRI Quarto theme template](https://github.com/H-Mateus/quarto-ukdri-theme).
+embed-resources: true
+---
+
+## Quick Questions!
+
+-   Follow the link: <https://www.menti.com/alqq45q4oprd>
+
+![](images/mentimeter_qr_code.png){fig-align="center"}
+
+::: notes
+<https://www.mentimeter.com/app/presentation/alrcqg7tuw6z221zusbii9tmi788qrkc/iiuvim6xku9v/edit>
+:::
+
+## Discussion groups
+
+::: {layout-ncol="2"}
+-   Each table has a topic to discuss for 10 minutes
+-   Please add your thoughts on the topic to the shared document: [https://hackmd.io/\@Coconut1019/BJJYscMY6/edit](https://hackmd.io/@Coconut1019/BJJYscMY6/edit)
+
+![](images/doc-qr-code.png){width="50%" fig-align="right"} [![](images/speech_bubble.jpg){fig-align="center" width="60%"}](https://unsplash.com/photos/three-crumpled-yellow-papers-on-green-surface-surrounded-by-yellow-lined-papers-V5vqWC9gyEU)
+:::
+
+## Code Review
+
+::: {layout-ncol="2"}
+-   [Join the team!](https://github.com/orgs/UKDRI/teams/code-review)
+-   How does the community want it to be used?
+    -   Quick second pair of eyes on code snippet?
+    -   Methodological advice (QC cutoff, etc)?
+    -   Full review of project codebase?
+
+[![](images/review.jpg){fig-align="center"}](https://unsplash.com/photos/black-and-white-typewriter-on-white-table--fRAIQHKcc0)
+:::
+
+## Code Review continued
+
+::: {layout-ncol="2"}
+-   Acknowledgements for review?
+    -   GitHub has metrics
+    -   Authorship? Establish group rules, or discuss ad-hoc?
+    -   Minimal acknowledgement in GitHub Contributors file for reviewers?
+
+[![](images/credit.jpg){fig-align="right" width="80%"}](https://unsplash.com/photos/a-person-stacking-coins-on-top-of-a-table-jpqyfK7GB4w)
+:::
+
+## Proposed workflow
+
+(@)  Make a repo on DRI GitHub Org (perhaps using [the template](https://github.com/H-Mateus/dri-reproducibility-template!)
+(@)  Write and publish a registered report outlining the project
+(@)  Gather/analyse data
+    i)  Make ADDI workspace?
+    ii) Use existing pipelines if applicable (Nextflow)
+    iii) Containerise software environment (probably at end of project)
+
+## Proposed workflow continued
+
+::: {layout-ncol="2"}
+(@)  Publish all the things!
+    -   Pre-print -\> [diamond open access](https://www.coalition-s.org/diamond-open-access/)
+    -   Data on relevant public repositories + ADDI?
+    -   generate DOI for code repo via [Zenodo](https://zenodo.org/)
+
+[![](images/publish.jpg){width="75%"}](https://unsplash.com/photos/open-book-lot-Oaqk7qqNh_c)
+:::
+
+```{r}
+#| label: dri-hexcolours
+#| include: false
+dri_hexcolours <- c("dark_blue" = "#00326e", "light_grey" = "#c4d1d9",
+                    "dark_grey" = "#415767", "sky_blue" = "#0ac8ff",
+                    "petrol_blue" = "007faf", "brigth_blue" = "4682ff",
+                    "cobalt" = "325ad7", "violet" = "#461e8c", "fuchsia" = "#fa2d6e",
+                    "ruby" = "#aa0050", "yellow" = "#ffed00")
+```
+
+<!-- define the final slide  -->
+
+## Thanks for listening! {.final-slide background-image="_extensions/H-Mateus/ukdri/title_background.png" style="color: #0ac8ff;"}
+
+::: {layout-ncol="2"}
+-   Here's to making science slightly less crap!
+-   Please get in touch about anything reproducibility related (or just just say hi :) - [bernardo-harringtong\@cardiff.ac.uk](mailto:bernardo-harringtong@cardiff.ac.uk)
+-   Questions?
+
+[![](images/hope.jpg){width="380"}](https://unsplash.com/photos/man-sitting-on-mountain-cliff-facing-white-clouds-rising-one-hand-at-golden-hour-bH7kZ0yazB0)
+:::
+
+<!--Adjust sizing in the CSS file-->
+
+::: title-logo-1
+:::
+
+::: title-logo-2
+:::
+
+## References
