@@ -12,6 +12,15 @@ We really want to know more about the informatics community to help us understan
 
 A huge thanks to those who've already filled it in, but for those who haven't please find it here: [https://portal.ukdri.ac.uk/news/are-you-using-informatics-in-your-uk-dri-research](https://portal.ukdri.ac.uk/news/are-you-using-informatics-in-your-uk-dri-research)
 
+# Q&A
+
+Q&A is handled on Slido [here](https://app.sli.do/event/jQy7EZDFaHKahPDyo4cym8/live/questions)
+
+# Discussion session
+
+Day 2 of the symposium features a discussion dession focused on reproducibility and the community.
+The shared document for the discussion session can be found [here](https://hackmd.io/@Coconut1019/BJJYscMY6/edit)
+
 # DRI GitHub
 
 The DRI has a [GitHub organisation](https://github.com/UKDRI), and we'd love to see folk using for sharing their code.
@@ -22,6 +31,7 @@ This meeting has also has a [repo](https://github.com/UKDRI/ECR-Informatics-symp
 It's a work in progress, but we've a template repo for projects on GitHub [here](https://github.com/H-Mateus/dri-reproducibility-template), any feedback or contributions would be very welcome!
 
 There's also a little DRI theme I made for [Quarto](https://quarto.org/) presentations [here](https://github.com/H-Mateus/quarto-ukdri-theme)
+
 # Slides & Posters
 
 Talks that have been made available can be found on the repo [here](https://github.com/UKDRI/ECR-Informatics-symposium-2024/tree/main/01_talks), and posters [here](https://github.com/UKDRI/ECR-Informatics-symposium-2024/tree/main/02_posters).
